@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*__Header__*/
+#header_hd {
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5f137e;
+}
+
+#title_hd {
+    font: Consolas;
+}
+
+/*__Main__*/
+#main_mn {
+    background-color: antiquewhite;
+}
+#title_mn {
+    color: #161616;
+}
+
+/*__Footer__*/
+#footer_ft {
+    background-color: black;
+}
+#title_ft {
+    color: #5f137e;
+}
