@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*__Header__*/
+#header_hd {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #5f137e;
+    width:auto;
+    height: 200px;
+}
+
+#title_hd {
+    font: Consolas;
+}
+
+/*__Main__*/
+#main_mn {
+    position: relative;
+    height: 600px;;
+    background-color: antiquewhite;
+}
+#title_mn {
+    color: #161616;
+}
+
+/*__Footer__*/
+#footer_ft {
+    position: relative;
+    height:150px;
+    background-color: black;
+}
+#title_ft {
+    color: #5f137e;
+}
